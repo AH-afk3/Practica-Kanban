@@ -19,7 +19,7 @@ cd practica-kanban-js
 
 ## Flujo de trabajo
 
-1. **Pueblen su Backlog:** Creen tarjetas en su tablero Kanban basándose en el archivo `TAREAS.md`.
+1. **Prueben su Backlog:** Creen tarjetas en su tablero Kanban basándose en el archivo `TAREAS.md`.
 2. **Tomen trabajo (Pull):** Muevan su tarjeta a la columna *Desarrollo* solo si no han rebasado el límite WIP.
 3. **Programen en SU archivo** (dentro de la carpeta `js/` o `css/`).
 4. **Suban cambios (Push) por cada tarea:**
