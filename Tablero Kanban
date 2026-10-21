@@ -1,0 +1,21 @@
+# Tablero Kanban del Equipo
+
+> **Instrucciones:** Para mover una tarea, simplemente corta la línea `- [ ] Tarea...` y pégala debajo de la columna correspondiente. 
+> **Límite WIP en Desarrollo:** Máximo 2 tareas al mismo tiempo[cite: 1].
+
+##  Backlog (Por Hacer)
+- [ ] **Tarea 1 (BD):** Completar la función `obtenerMenu()` en `database.js` para que devuelva los platillos guardados.
+- [ ] **Tarea 2 (UI):** Diseñar las tarjetas de los platillos en `style.css` usando Flexbox o Grid.
+- [ ] **Tarea 3 (Lógica):** Completar `app.js` para renderizar el menú en el HTML dinámicamente.
+- [ ] **Tarea 4 (Lógica):** Crear la función en `app.js` que sume el precio al hacer clic en un platillo.
+- [ ] **Tarea 5 (BD):** Completar la función `guardarComanda(total)` en `database.js` para guardar la orden en `localStorage`.
+- [ ] **Tarea 6 (UI):** Mostrar una alerta en pantalla usando JS y limpiar el total cuando se envíe la orden.
+
+##  En Desarrollo (WIP Máx: 2)
+*(Pega aquí las tareas en las que estén trabajando)*
+
+##  Revisión (Pull Requests / Pruebas)
+*(Pega aquí las tareas listas para revisión de código)*
+
+## ✅ Hecho
+*(Pega aquí las tareas terminadas)*
