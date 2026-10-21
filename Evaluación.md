@@ -6,22 +6,15 @@
 
 ¿Cómo les ayudó tener el tablero visual en GitHub Projects para saber en qué estaba trabajando cada miembro del equipo sin tener que preguntarse a cada rato?
 
-*Respuesta:* 
-
 **2. Límites de Trabajo en Curso (WIP)**
 
 ¿Cuál fue el límite WIP que establecieron para la columna "Desarrollo"? ¿Sintieron que esta restricción redujo el estrés o el *multitasking* en comparación con trabajar sin reglas?
-
-*Respuesta:*
 
 **3. Gestión de Cuellos de Botella**
 
 Durante la práctica, ¿tuvieron alguna tarea que se quedó bloqueada o estancada mucho tiempo? Si fue así, ¿cómo se organizó el equipo para ayudar a destrabarla y mantener el flujo continuo?
 
-*Respuesta:*
-
 **4. Mejora Continua**
 
 Si este proyecto del restaurante continuara durante todo el semestre, ¿qué política explícita nueva agregarían a su tablero o qué cambiarían de su límite WIP para ser más eficientes?
 
-*Respuesta:*
