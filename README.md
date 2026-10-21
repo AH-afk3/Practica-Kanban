@@ -14,7 +14,7 @@
 
 ```bash
 git clone <URL_DEL_REPO>
-cd practica-kanban-js
+cd Practica-Kanban
 ```
 
 ## Flujo de trabajo
