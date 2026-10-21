@@ -1,3 +1,4 @@
+```markdown
 #Kanban (Evaluación Final)
 
 > **Instrucciones:** Al finalizar el Día 3, cuando todas las tarjetas de código estén en la columna "Hecho", reúnanse como equipo, discutan las siguientes preguntas y escriban sus respuestas aquí. Al terminar, hagan un último `commit` y `push` con este archivo actualizado.
