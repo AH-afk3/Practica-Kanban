@@ -1,10 +1,46 @@
-# Práctica Kanban: Sistema de Restaurante 
+# Kanban- Restaurante
 
-El objetivo es aplicar el método Kanban para gestionar el desarrollo de este módulo, visualizando el flujo y limitando el trabajo en curso (WIP)[cite: 1].
+## Actividades Esperadas (Práctica de 3 días)
+*   **Día 1:** El líder hace el *Fork*, crea el tablero Kanban en la pestaña "Projects" (Columnas: *Backlog, Desarrollo, Revisión, Hecho*), definen su límite WIP y comienzan a programar.
+*   **Día 2:** Programan las funcionalidades en JavaScript/CSS gestionando visualmente cualquier bloqueo en el tablero.
+*   **Día 3:** Terminan el desarrollo, mueven las tarjetas a "Hecho" y el equipo responde las preguntas del archivo **ANALISIS.md**.
 
-## Reglas del Equipo
-1. **Flujo Pull:** Solo tomen trabajo del *Backlog* cuando tengan capacidad, respetando el límite WIP del `TABLERO.md`[cite: 1].
-2. **Políticas Explícitas:** Deben cumplir estas dos reglas[cite: 1]:
-   * *Para pasar a Revisión:* El código de JavaScript no debe arrojar errores en la consola del navegador.
-   * *Bloqueos:* Si se atoran con un código, agreguen la etiqueta `[BLOQUEADO]` al texto de su tarea en el tablero y avisen al equipo.
-3. **Retrospectiva:** Al final del Día 3, discutan en equipo cómo les ayudó visualizar las tareas y si el límite WIP redujo el estrés de programar[cite: 1].
+## Roles dentro de cada equipo
+| Rol | Qué hace |
+| :--- | :--- |
+| **Líder (Service Delivery Manager)** | Hace el Fork, configura el tablero Kanban en "Projects" y vigila que se respete el límite WIP. |
+| **Dev (Desarrollador)** | "Jala" (*pull*) tarjetas, programa las funciones del archivo `TAREAS.md` y hace los commits. |
+| **QA / Revisor** | Prueba el código en el navegador (revisa consola) antes de mover la tarjeta a "Hecho". |
+
+```bash
+git clone <URL_DEL_REPO>
+cd practica-kanban-js
+```
+
+## Flujo de trabajo
+
+1. **Pueblen su Backlog:** Creen tarjetas en su tablero Kanban basándose en el archivo `TAREAS.md`[cite: 1].
+2. **Tomen trabajo (Pull):** Muevan su tarjeta a la columna *Desarrollo* solo si no han rebasado el límite WIP[cite: 1].
+3. **Programen en SU archivo** (dentro de la carpeta `js/` o `css/`).
+4. **Suban cambios (Push) por cada tarea:**
+   ```bash
+   git add .
+   git commit -m "feat: completa renderizado del menu"
+   git push origin main
+   ```
+
+## Reglas
+* **Límite WIP:** Prohibido empezar una tarea nueva si la columna Desarrollo está llena. Ayuden a destrabar primero[cite: 1].
+* **Políticas Explícitas:** Para mover una tarjeta a Revisión, el código no debe marcar errores en la consola (F12)[cite: 1].
+* **Bloqueos:** Si se atoran, escriban [BLOQUEADO] en el título de su tarjeta en el tablero. El equipo debe detenerse a ayudar[cite: 1].
+* Hagan commits pequeños y claros por cada tarea terminada.
+* Contesten el archivo ANALISIS.md únicamente hasta que hayan terminado el código.
+
+## Estructura
+```text
+index.html         <- Vista principal
+css/style.css      <- Aquí dan diseño al menú
+js/database.js     <- Aquí simulan la base de datos con localStorage
+js/app.js          <- Aquí programan la lógica de los clics y sumas
+ANALISIS.md        <- Archivo de evaluación final
+```
