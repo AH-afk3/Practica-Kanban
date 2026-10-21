@@ -18,3 +18,4 @@ Durante la práctica, ¿tuvieron alguna tarea que se quedó bloqueada o estancad
 **4. Mejora Continua**
 Si este proyecto del restaurante continuara durante todo el semestre, ¿qué política explícita nueva agregarían a su tablero o qué cambiarían de su límite WIP para ser más eficientes?[cite: 1]
 *Respuesta:*
+```
