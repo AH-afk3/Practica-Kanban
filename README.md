@@ -19,8 +19,8 @@ cd practica-kanban-js
 
 ## Flujo de trabajo
 
-1. **Pueblen su Backlog:** Creen tarjetas en su tablero Kanban basándose en el archivo `TAREAS.md`[cite: 1].
-2. **Tomen trabajo (Pull):** Muevan su tarjeta a la columna *Desarrollo* solo si no han rebasado el límite WIP[cite: 1].
+1. **Pueblen su Backlog:** Creen tarjetas en su tablero Kanban basándose en el archivo `TAREAS.md`.
+2. **Tomen trabajo (Pull):** Muevan su tarjeta a la columna *Desarrollo* solo si no han rebasado el límite WIP.
 3. **Programen en SU archivo** (dentro de la carpeta `js/` o `css/`).
 4. **Suban cambios (Push) por cada tarea:**
    ```bash
@@ -30,9 +30,9 @@ cd practica-kanban-js
    ```
 
 ## Reglas
-* **Límite WIP:** Prohibido empezar una tarea nueva si la columna Desarrollo está llena. Ayuden a destrabar primero[cite: 1].
-* **Políticas Explícitas:** Para mover una tarjeta a Revisión, el código no debe marcar errores en la consola (F12)[cite: 1].
-* **Bloqueos:** Si se atoran, escriban [BLOQUEADO] en el título de su tarjeta en el tablero. El equipo debe detenerse a ayudar[cite: 1].
+* **Límite WIP:** Prohibido empezar una tarea nueva si la columna Desarrollo está llena. Ayuden a destrabar primero.
+* **Políticas Explícitas:** Para mover una tarjeta a Revisión, el código no debe marcar errores en la consola (F12).
+* **Bloqueos:** Si se atoran, escriban [BLOQUEADO] en el título de su tarjeta en el tablero. El equipo debe detenerse a ayudar.
 * Hagan commits pequeños y claros por cada tarea terminada.
 * Contesten el archivo ANALISIS.md únicamente hasta que hayan terminado el código.
 
