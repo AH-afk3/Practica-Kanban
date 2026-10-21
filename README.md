@@ -3,7 +3,7 @@
 ## Actividades Esperadas (Práctica de 3 días)
 *   **Día 1:** El líder hace el *Fork*, crea el tablero Kanban en la pestaña "Projects" (Columnas: *Backlog, Desarrollo, Revisión, Hecho*), definen su límite WIP y comienzan a programar.
 *   **Día 2:** Programan las funcionalidades en JavaScript/CSS gestionando visualmente cualquier bloqueo en el tablero.
-*   **Día 3:** Terminan el desarrollo, mueven las tarjetas a "Hecho" y el equipo responde las preguntas del archivo **ANALISIS.md**.
+*   **Día 3:** Terminan el desarrollo, mueven las tarjetas a "Hecho" y el equipo responde las preguntas del archivo **Evaluación.md**.
 
 ## Roles dentro de cada equipo
 | Rol | Qué hace |
